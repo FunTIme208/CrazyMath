@@ -1,0 +1,31 @@
+﻿#LevelContainer {
+    width: 1024px;
+    height: 768px;
+    position: relative;
+    background-image: url(../../images/background/levelbackground.jpg);
+    overflow: hidden;
+	margin:-384px auto 0;
+}
+
+#Sakurua {
+    display: none;
+    position: absolute;
+    width: 433px;
+    height: 78px;
+    top: 27px;
+    left: 285px;
+}
+
+.LevelChoice {
+    top: -265px;
+    left: 750px;
+    position: absolute;
+    width: 265px;
+    height: 230px;
+	z-index:1;
+}
+
+input {
+    width: 100%;
+    height: 100%;
+}

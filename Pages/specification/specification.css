@@ -1,0 +1,34 @@
+﻿div {
+    font-size:large;
+    color:rgb(0, 38, 255);
+}
+
+.fontContainer{
+	width:1024px;
+	height:768px;
+	margin:-384px auto 0;
+	position:absolute;
+}
+
+.IButton {
+    color:rgb(0, 38, 255);
+}
+
+.iContainer {
+    top:0;
+    left:0;
+    text-align:center;
+    width:1024px;
+    height:768px;
+}
+
+#toGame {
+    width:99px;
+    height:99px;
+    bottom:12px;
+    left:143px;
+    position:absolute;
+}
+#fontT{
+font-size:30px;
+}

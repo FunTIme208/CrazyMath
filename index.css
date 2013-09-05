@@ -1,0 +1,48 @@
+#HomeContainer {
+    width: 1024px;
+    height: 768px;
+	margin:-384px auto 0;
+	background:url("images/background/HomeBack1024.jpg") no-repeat;
+	position:relative;
+	z-index:1;
+}
+
+#HomeMenu {
+    height: 400px;
+    top: 60%;
+    float: left;
+    left: 50%;
+    position: relative;
+}
+
+.HomeButton {
+    margin: 20px;
+    width: 257px;
+    height: 90px;
+    right: 50%;
+    position: relative;
+}
+
+#start {
+    margin: 0 auto;
+}
+
+#specification, #producer {
+    float: left;
+}
+
+#button0:hover {
+    cursor: url(images/cursor/link.cur),pointer;
+}
+
+#button1:hover {
+    cursor: url(images/cursor/help.cur),help;
+}
+
+#button2:hover {
+    cursor: url(images/cursor/hand.cur),pointer;
+}
+
+img{
+	border:0;
+}

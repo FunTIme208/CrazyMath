@@ -1,0 +1,43 @@
+html, body {
+    height: 100%;
+    width:100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Snap ITC',Jokerman,Ravie,'Gill Sans MT','Courier New',Arial;
+    cursor: url(images/cursor/select.cur),auto;
+    background-color:black;
+	text-align:center;
+}
+
+.OutContainer{
+	height:768px;
+	top:50%;
+	position:relative;
+	z-index:0;
+}
+
+.fixedlayout {
+    -ms-grid-columns: 1fr;
+    -ms-grid-rows: 1fr;
+    display: -ms-grid;
+    height: 768px;
+    width: 1024px;
+}
+
+#back {
+    width:108px;
+    height:99px;
+    bottom:15px;
+    left:15px;
+    position:absolute;
+}
+
+.fontContainer {
+    width:1024px;
+    height:768px;
+    background-image:url(images/background/font.png);
+    position:relative;
+}

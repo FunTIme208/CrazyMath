@@ -1,0 +1,13 @@
+﻿body,td,th {
+	color: #000;
+	font-weight: bold;
+	font-size: 21px;
+	font-style: italic;
+}
+
+.fontContainer{
+	width:1024px;
+	height:768px;
+	margin:-384px auto 0;
+	position:absolute;
+}

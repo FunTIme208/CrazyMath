@@ -1,0 +1,125 @@
+﻿#GameBG {
+    position:relative;
+    width:1024px;
+    height:768px;
+	margin:-384px auto 0;
+    background: url(../../images/background/gamebackground.jpg) no-repeat;
+    overflow:hidden;
+    z-index:-2;
+}
+
+#GamePageCon {
+    overflow:hidden;
+    position:absolute;
+    width:1024px;
+    height:768px;
+}
+
+.GamePage {
+    float: left;
+}
+
+#GameRun {
+    width:1024px;
+    height:600px;
+    -ms-touch-action:none;
+}
+
+#GameGrade {
+    width: 206px;
+    height:168px;
+    vertical-align:middle;
+    line-height:168px;
+    text-align:center;
+    font-family:Ravie,'Gill Sans MT','Courier New',Arial;
+    font-size:70px;
+    text-shadow:0px -2px 5px #332D15;
+    font-weight:bold;
+    background-image:url(../../images/gamepick/grade.png);
+}
+
+#Top {
+    top:-371px;
+    left:0;
+    position:absolute;
+    width: 100%;
+    height: 371px;
+    background-image: url(../../images/background/top.png);
+    z-index:-1;
+}
+
+#Questions {
+    width: 612px;
+    height: 168px;
+    vertical-align:middle;
+    line-height:168px;
+    text-align:center;
+    font-family:'Snap ITC',Jokerman,Ravie,'Gill Sans MT','Courier New',Arial;
+    font-size:80px;
+    text-shadow:0px -2px 5px #332D15;
+    font-weight:bold;
+}
+
+#Time {
+    width: 206px;
+    height: 168px;
+}
+
+.StopScreen {
+    top:0;
+    left:0;
+    width: 1024px;
+    height: 768px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    vertical-align: middle;
+    line-height: 768px;
+    text-align: center;
+    font-size: 100px;
+    text-shadow: 0px -2px 5px rgb(255, 247, 40);
+    font-weight: bold;
+    opacity: 1;
+}
+
+#start {
+    z-index:1;
+    background-image:url("img/Start.png");
+}
+
+#help {
+    z-index:1;
+    background-image:url("img/Help.png");
+}
+
+#helpP {
+    width:1024px;
+    height:88px;
+    margin-top:500px;
+	margin-left:400px;
+}
+
+.YN {
+    width:88px;
+    height:88px;
+    margin:0 50px;
+    float:left;
+    border:0;
+}
+
+#Yes {
+    background:url(img/Yes.png) no-repeat 0px 0px;
+}
+
+#No {
+    background:url(img/No.png) no-repeat 0px 0px;
+}
+
+#input {
+    position: absolute;
+    top: 0;
+    left: 210px;
+}
+
+div{
+	color:#FF0;
+}
