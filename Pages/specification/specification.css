@@ -1,17 +1,19 @@
-﻿div {
+﻿body{
+    opacity: .99;
+}
+
+div {
     font-size:large;
     color:rgb(0, 38, 255);
 }
 
 .fontContainer{
-	width:1024px;
-	height:768px;
+    top:50%;
 	margin:-384px auto 0;
-	position:absolute;
 }
 
 .IButton {
-    color:rgb(0, 38, 255);
+    color:rgb(0, 38, 255);  
 }
 
 .iContainer {

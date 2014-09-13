@@ -1,9 +1,15 @@
-﻿#LevelContainer {
+﻿body{
+    opacity: .99;
+}
+
+#LevelContainer {
     width: 1024px;
     height: 768px;
     position: relative;
     background-image: url(../../images/background/levelbackground.jpg);
     overflow: hidden;
+    /*div 上下左右居中*/
+    top: 50%;
 	margin:-384px auto 0;
 }
 

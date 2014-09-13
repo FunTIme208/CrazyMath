@@ -1,7 +1,12 @@
-﻿#GameBG {
+﻿body{
+    opacity: .99;
+}
+
+#GameBG {
     position:relative;
     width:1024px;
     height:768px;
+    top: 50%;
 	margin:-384px auto 0;
     background: url(../../images/background/gamebackground.jpg) no-repeat;
     overflow:hidden;

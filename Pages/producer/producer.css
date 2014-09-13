@@ -5,9 +5,12 @@
 	font-style: italic;
 }
 
+body{
+	opacity: .99;
+}
+
 .fontContainer{
-	width:1024px;
-	height:768px;
+	top:50%;
 	margin:-384px auto 0;
 	position:absolute;
 }

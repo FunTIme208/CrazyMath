@@ -10,6 +10,12 @@ $(document).ready(function () {
                 volumen: 80,
                 autoPlay: true
             });
+            soundManager.createSound({
+                id: 'HomeButton',
+                url: 'sounds/button.wav',
+                volumen: 60,
+                autoPlay: false
+            });
      loopSound(s);
 		},
 		ontimeout:function(){
@@ -26,6 +32,16 @@ $(document).ready(function () {
     }).mousedown(function () {
         var Imgstr = "images/button/" + $(this).attr("id") + "on.png";
         document.getElementById($(this).attr("id")).src = Imgstr;
-        soundManager.play("Button");
+        soundManager.play("HomeButton");
+
+    });
+    $(".HButtons").click(function() {
+        if ($(this).attr("id") == "button0") {
+            location.href = "Pages/LevelIndex/LevelIndex.html";
+        }else if ($(this).attr("id") == "button1") {
+            location.href = "Pages/specification/specification.html";
+        }else if ($(this).attr("id") == "button2") {
+            location.href = "Pages/producer/producer.html";
+        };
     });
 })
